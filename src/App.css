@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.display {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  font-size: 24px;
+  border: 1px solid #ddd;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calc-button {
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
